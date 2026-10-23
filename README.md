@@ -15,20 +15,39 @@ via open repositories, including:
 ## Preliminary Analysis
 
 For this work, data was analysed using a combination of open-research software, 
-most commonly base R (R Core Team, 2026), Python (Python Software Foundation, 
-2026) and associated public-license packages. 
+most commonly base R, Python and associated public-license packages: 
+
+* R Core Team, R v.4.6.1 (https://www.R-project.org/)
+* Python Software Foundation, Python v3.1. (http://www.python.org) 
 
 Specialist software tools: 
 
-* Maps were generated using OpenStreetMap (Fellows & Stotz, 2025) or dependent 
-data-mapping packages (see, for example, Loecher & Ropkins, 2015)
-* bivariate polar plots (wind-speed versus wind direction versus pollutant 
-surface plots) were generated using openair (Carslaw & Ropkins, 2012) 
-* triangle/ternary plots were generated with loa (Ropkins, 2024)
-* other plots were generated using ggplot2 and related packages (Wickham, 2026)
-* data surfaces were fitted using mgcv (Wood, 2025) 
-* source apportionment models were fitted using ESAT (Smith et al, 2024) and 
-reference source profiles from respeciate (Ibarra-Espinosa & Ropkins, 2025)
+* Maps were generated using OpenStreetMap or dependent 
+data-mapping packages
+    * OpenStreetMap, R package v0.4.1 (https://CRAN.R-project.org/package=OpenStreetMap)
+    * loa, R package v0.3.1.2 (https://CRAN.R-project.org/package=loa) 
 
-## Addition: 
+* Bivariate polar plots (wind-speed versus wind direction versus pollutant 
+surface plots) were generated using openair 
+    * openair, project pages (https://openair-project.github.io/openair/) 
+    * openair, R package v3.1.0 (https://CRAN.R-project.org/package=openair) 
 
+* Triangle/ternary plots were generated with loa
+    * loa, R package v0.3.1.2 (https://CRAN.R-project.org/package=loa)
+
+* Other plots were generated using ggplot2 and related packages 
+    * ggplot2 project pages (https://ggplot2.tidyverse.org/)
+    * ggplot2, R package v4.0.3 (https://CRAN.R-project.org/package=ggplot2)
+
+* data surfaces were fitted using mgcv
+    * mgcv, R package v1.9-4 (https://CRAN.R-project.org/package=mgcv)
+
+* source apportionment models were fitted using ESAT and 
+reference source profiles from respeciate 
+    * ESAT, Python/Rust package (https://github.com/quanted/esat)  
+    * respeciate, R package v0.4.2 (https://github.com/atmoschem/respeciate)
+
+## Additional: 
+
+* Other data visualisation options 
+    * VisQuill (https://visquill.com)
